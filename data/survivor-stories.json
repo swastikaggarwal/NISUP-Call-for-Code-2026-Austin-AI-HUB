@@ -1,0 +1,44 @@
+[
+  {
+    "id": "story_1",
+    "situationType": "Fake job scam",
+    "region": "South India → Gulf",
+    "story": "I was promised a hotel job abroad by a recruiter who took my passport on arrival and made me work without pay. I kept a copy of the fake offer letter, and that document is what finally helped investigators act.",
+    "whatHelped": "Keeping a copy of the recruitment paperwork and reaching the overseas workers cell through a helpline."
+  },
+  {
+    "id": "story_2",
+    "situationType": "Sex trafficking",
+    "region": "Eastern India",
+    "story": "I was moved between cities and told no one would believe me. A survivor who had spoken up before was assigned as my peer supporter, and hearing that someone had gotten out gave me the courage to give a statement.",
+    "whatHelped": "Peer support from another survivor and a trauma-informed officer who let me speak at my own pace."
+  },
+  {
+    "id": "story_3",
+    "situationType": "Forced labour",
+    "region": "Northern India",
+    "story": "I worked at a brick kiln to pay off a loan that never seemed to shrink. A labour inspector visited after a neighbour reported the site, and my whole family was released.",
+    "whatHelped": "A witness reporting the site, and a labour inspectorate that treated the debt as illegal bondage."
+  },
+  {
+    "id": "story_4",
+    "situationType": "Child labour",
+    "region": "Urban India",
+    "story": "I started working in a workshop at eleven. An NGO doing rounds found me, got me out, and helped me return to school. I now speak so other children are found sooner.",
+    "whatHelped": "An NGO outreach team and a rehabilitation plan that included going back to school."
+  },
+  {
+    "id": "story_5",
+    "situationType": "Forced marriage",
+    "region": "India",
+    "story": "I was going to be married before I finished school. I called a child helpline quietly, and a counsellor spoke to my family with me so it did not become dangerous.",
+    "whatHelped": "A confidential helpline and a mediator who protected me while talking to my family."
+  },
+  {
+    "id": "story_6",
+    "situationType": "Sex trafficking",
+    "region": "United States",
+    "story": "I thought I was in a relationship until I realised I was being sold. A hotline gave me a safety plan first, and only later helped me talk to investigators when I was ready.",
+    "whatHelped": "A safety plan before any report, and being allowed to decide when to involve the police."
+  }
+]

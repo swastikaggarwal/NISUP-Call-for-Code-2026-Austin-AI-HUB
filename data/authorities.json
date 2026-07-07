@@ -1,0 +1,137 @@
+[
+  {
+    "name": "National Anti-Trafficking Helpline (India)",
+    "type": "NGO / helpline",
+    "situationTypes": ["Sex trafficking", "Forced labour", "Child labour", "Fake job scam", "Forced marriage"],
+    "region": "India (nationwide)",
+    "phone": "1098",
+    "email": "help@antitraffickingindia.org",
+    "description": "24x7 helpline that triages trafficking reports and connects survivors with rescue, shelter, and legal aid across India."
+  },
+  {
+    "name": "Anti-Human Trafficking Unit — Delhi Police",
+    "type": "Police",
+    "situationTypes": ["Sex trafficking", "Forced labour", "Child labour"],
+    "region": "Delhi NCR, India",
+    "phone": "+91-11-2000-1234",
+    "email": "ahtu.delhi@police.gov.in",
+    "description": "Specialised police unit that investigates trafficking networks and coordinates rescues in the Delhi region."
+  },
+  {
+    "name": "State Labour Inspectorate — Maharashtra",
+    "type": "Labour inspector",
+    "situationTypes": ["Forced labour", "Child labour", "Fake job scam"],
+    "region": "Maharashtra, India",
+    "phone": "+91-22-2200-5678",
+    "email": "inspector.mh@labour.gov.in",
+    "description": "Inspects workplaces for bonded and child labour, wage theft, and unsafe conditions; can raid and shut down offending sites."
+  },
+  {
+    "name": "Childline India Foundation",
+    "type": "Child protection",
+    "situationTypes": ["Child labour", "Forced marriage", "Sex trafficking"],
+    "region": "India (nationwide)",
+    "phone": "1098",
+    "email": "contact@childlineindia.org",
+    "description": "Child protection service responding to reports of children in danger, including child labour and early marriage."
+  },
+  {
+    "name": "Bachpan Bachao Andolan (Save Childhood Movement)",
+    "type": "NGO",
+    "situationTypes": ["Child labour", "Forced labour"],
+    "region": "North India",
+    "phone": "+91-11-4900-1000",
+    "email": "info@bba.org.in",
+    "description": "NGO conducting rescue operations for children in bonded and hazardous labour and supporting their rehabilitation."
+  },
+  {
+    "name": "West Bengal Anti-Trafficking NGO Network",
+    "type": "NGO",
+    "situationTypes": ["Sex trafficking", "Fake job scam", "Forced marriage"],
+    "region": "West Bengal, India",
+    "phone": "+91-33-2100-2233",
+    "email": "network@wbatn.org",
+    "description": "Coalition of NGOs supporting survivors of cross-border trafficking with shelter, counselling, and repatriation help."
+  },
+  {
+    "name": "Cyber Crime & Job-Fraud Cell — Bengaluru",
+    "type": "Police",
+    "situationTypes": ["Fake job scam"],
+    "region": "Bengaluru, Karnataka, India",
+    "phone": "+91-80-2200-9090",
+    "email": "cybercell.blr@police.gov.in",
+    "description": "Handles fraudulent recruitment, fake overseas job offers, and online scams that lure victims into trafficking."
+  },
+  {
+    "name": "Ministry of External Affairs — Overseas Workers Cell",
+    "type": "Government",
+    "situationTypes": ["Fake job scam", "Forced labour"],
+    "region": "India (overseas cases)",
+    "phone": "+91-11-2338-1234",
+    "email": "oia.mea@gov.in",
+    "description": "Assists Indian nationals trapped in exploitative jobs abroad, coordinating with embassies for rescue and return."
+  },
+  {
+    "name": "National Human Trafficking Hotline (USA)",
+    "type": "NGO / helpline",
+    "situationTypes": ["Sex trafficking", "Forced labour", "Child labour", "Fake job scam"],
+    "region": "United States (nationwide)",
+    "phone": "1-888-373-7888",
+    "email": "help@humantraffickinghotline.us",
+    "description": "Confidential 24x7 hotline operated by Polaris that connects victims and witnesses to local services and law enforcement."
+  },
+  {
+    "name": "FBI Field Office — Human Trafficking Program",
+    "type": "Police / federal",
+    "situationTypes": ["Sex trafficking", "Forced labour", "Child labour"],
+    "region": "United States (nationwide)",
+    "phone": "1-800-225-5324",
+    "email": "tips@fbi.gov",
+    "description": "Federal investigators pursuing trafficking networks and coordinating multi-state rescue operations."
+  },
+  {
+    "name": "Department of Labor — Wage and Hour Division",
+    "type": "Labour inspector",
+    "situationTypes": ["Forced labour", "Child labour", "Fake job scam"],
+    "region": "United States (nationwide)",
+    "phone": "1-866-487-9243",
+    "email": "whd.contact@dol.gov",
+    "description": "Enforces labour law and investigates forced labour, wage theft, and unlawful child employment."
+  },
+  {
+    "name": "Local Child Protective Services (CPS)",
+    "type": "Child protection",
+    "situationTypes": ["Child labour", "Forced marriage", "Sex trafficking"],
+    "region": "United States (county-level)",
+    "phone": "1-800-422-4453",
+    "email": "report@childhelp.us",
+    "description": "County child protection responders for minors at risk of labour, marriage, or sexual exploitation."
+  },
+  {
+    "name": "Embassy Consular Assistance Desk",
+    "type": "Embassy",
+    "situationTypes": ["Fake job scam", "Forced labour", "Sex trafficking"],
+    "region": "Global (for nationals abroad)",
+    "phone": "+1-202-000-0000",
+    "email": "consular.assist@embassy.gov",
+    "description": "Provides emergency documents, repatriation, and protection for nationals trafficked or trapped in another country."
+  },
+  {
+    "name": "Safe Horizon Anti-Trafficking Program",
+    "type": "NGO",
+    "situationTypes": ["Sex trafficking", "Forced labour"],
+    "region": "New York, United States",
+    "phone": "1-718-943-8631",
+    "email": "help@safehorizon.us",
+    "description": "Victim-services NGO offering shelter, legal advocacy, and case management for trafficking survivors."
+  },
+  {
+    "name": "Women & Child Development Rescue Cell",
+    "type": "Government",
+    "situationTypes": ["Forced marriage", "Sex trafficking", "Child labour"],
+    "region": "India (state WCD departments)",
+    "phone": "181",
+    "email": "wcd.rescue@gov.in",
+    "description": "State women-and-child welfare cell that intervenes in forced marriage and exploitation of women and minors."
+  }
+]

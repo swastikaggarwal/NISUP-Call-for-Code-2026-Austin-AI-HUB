@@ -1,26 +1,232 @@
 @import "tailwindcss";
 
+/*
+  NISUP design system — a faithful port of the Google Stitch tailwind.config
+  shared across every screen's code.html. Same token names so the Stitch markup
+  can be ported near-verbatim into React.
+  Tailwind v4 uses CSS-based config via @theme.
+*/
+@theme {
+  /* ── Colors (exact Stitch palette) ── */
+  --color-on-primary: #ffffff;
+  --color-on-secondary-fixed-variant: #00513a;
+  --color-on-error-container: #93000a;
+  --color-surface-bright: #f9f9f6;
+  --color-background: #f9f9f6;
+  --color-on-tertiary-fixed-variant: #673d00;
+  --color-surface-container-highest: #e2e3e0;
+  --color-on-secondary-container: #007151;
+  --color-secondary-fixed: #86f8c9;
+  --color-primary-fixed-dim: #84d6b9;
+  --color-error: #ba1a1a;
+  --color-on-primary-fixed: #002117;
+  --color-outline-variant: #bec9c3;
+  --color-primary-fixed: #a0f3d4;
+  --color-inverse-surface: #2f312f;
+  --color-surface-container-lowest: #ffffff;
+  --color-tertiary-fixed-dim: #ffb869;
+  --color-on-surface-variant: #3f4944;
+  --color-outline: #6f7a74;
+  --color-on-error: #ffffff;
+  --color-on-surface: #1a1c1b;
+  --color-tertiary-fixed: #ffdcbb;
+  --color-secondary-container: #83f5c6;
+  --color-primary: #005440;
+  --color-surface-tint: #086b53;
+  --color-on-primary-container: #9aedcf;
+  --color-on-tertiary-container: #ffd5ac;
+  --color-on-tertiary: #ffffff;
+  --color-on-tertiary-fixed: #2b1700;
+  --color-on-secondary: #ffffff;
+  --color-tertiary: #6b3f00;
+  --color-tertiary-container: #8c5400;
+  --color-on-background: #1a1c1b;
+  --color-surface-container: #eeeeeb;
+  --color-surface-container-high: #e8e8e5;
+  --color-inverse-primary: #84d6b9;
+  --color-secondary-fixed-dim: #68dbae;
+  --color-error-container: #ffdad6;
+  --color-surface-dim: #dadad7;
+  --color-inverse-on-surface: #f1f1ee;
+  --color-surface-variant: #e2e3e0;
+  --color-primary-container: #0f6e56;
+  --color-on-primary-fixed-variant: #00513e;
+  --color-on-secondary-fixed: #002115;
+  --color-secondary: #006c4e;
+  --color-surface-container-low: #f4f4f1;
+  --color-surface: #f9f9f6;
+  /* Named brand accents used in some screens */
+  --color-amber: #ba7517;
+
+  /* ── Spacing (exact Stitch names) ── */
+  --spacing-stack-gap-sm: 12px;
+  --spacing-stack-gap-md: 24px;
+  --spacing-stack-gap-lg: 48px;
+  --spacing-gutter: 16px;
+  --spacing-unit: 8px;
+  --spacing-container-padding-mobile: 24px;
+  --spacing-container-padding-desktop: 40px;
+
+  /* ── Fonts ── */
+  --font-headline-md: "Inter", sans-serif;
+  --font-headline-lg-mobile: "Inter", sans-serif;
+  --font-headline-lg: "Inter", sans-serif;
+  --font-body-md: "Inter", sans-serif;
+  --font-body-lg: "Inter", sans-serif;
+  --font-label-md: "Inter", sans-serif;
+  --font-label-sm: "Inter", sans-serif;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+
+  /* ── Type scale (exact Stitch fontSize tokens) ── */
+  --text-headline-md: 20px;
+  --text-headline-md--line-height: 28px;
+  --text-headline-md--font-weight: 500;
+  --text-headline-lg-mobile: 24px;
+  --text-headline-lg-mobile--line-height: 32px;
+  --text-headline-lg-mobile--letter-spacing: -0.01em;
+  --text-headline-lg-mobile--font-weight: 600;
+  --text-headline-lg: 32px;
+  --text-headline-lg--line-height: 40px;
+  --text-headline-lg--letter-spacing: -0.02em;
+  --text-headline-lg--font-weight: 600;
+  --text-body-md: 16px;
+  --text-body-md--line-height: 24px;
+  --text-body-md--font-weight: 400;
+  --text-body-lg: 18px;
+  --text-body-lg--line-height: 28px;
+  --text-body-lg--font-weight: 400;
+  --text-label-md: 14px;
+  --text-label-md--line-height: 20px;
+  --text-label-md--letter-spacing: 0.01em;
+  --text-label-md--font-weight: 600;
+  --text-label-sm: 12px;
+  --text-label-sm--line-height: 16px;
+  --text-label-sm--letter-spacing: 0.02em;
+  --text-label-sm--font-weight: 500;
+}
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  color-scheme: light;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+html,
+body {
+  background-color: #fafaf7;
+  color: var(--color-on-background);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+/* Material Symbols icon defaults (font loaded in layout) */
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+  user-select: none;
+}
+
+/* ── Animations ported from the Stitch screens ── */
+@keyframes orb-breathing {
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 0.1;
+  }
+  50% {
+    transform: scale(1.15);
+    opacity: 0.2;
   }
 }
+.orb-pulse {
+  animation: orb-breathing 4s ease-in-out infinite;
+}
+.orb-breath {
+  animation: orb-breathing 4s ease-in-out infinite;
+}
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@keyframes status-blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.4;
+  }
+}
+.status-pulse {
+  animation: status-blink 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes pulse-glow {
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 0.6;
+  }
+  50% {
+    transform: scale(1.15);
+    opacity: 1;
+  }
+}
+.orb-glow {
+  animation: pulse-glow 4s ease-in-out infinite;
+}
+
+@keyframes ripple {
+  0% {
+    transform: scale(0.85);
+    opacity: 0.7;
+  }
+  100% {
+    transform: scale(1.6);
+    opacity: 0;
+  }
+}
+.orb-ripple {
+  animation: ripple 2.4s ease-out infinite;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.fade-in {
+  animation: fadeIn 1.2s ease-out forwards;
+}
+
+@keyframes message-entrance {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.message-entrance {
+  animation: message-entrance 0.4s ease-out forwards;
+}
+
+.ambient-shadow {
+  box-shadow: 0 20px 40px rgba(15, 110, 86, 0.08);
+}
+.floating-input-shadow {
+  box-shadow: 0 20px 40px rgba(15, 110, 86, 0.08);
+}
+
+@keyframes sheet-up {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+.animate-sheet-up {
+  animation: sheet-up 0.3s cubic-bezier(0.16, 1, 0.3, 1);
 }

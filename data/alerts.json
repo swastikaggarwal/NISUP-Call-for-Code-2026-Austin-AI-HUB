@@ -1,0 +1,44 @@
+[
+  {
+    "id": "alert_1",
+    "situationType": "Fake job scam",
+    "area": "North Industrial Hub",
+    "message": "Community reports of a recruitment office promising overseas jobs, collecting fees and passports, then going silent. Verify any agency before paying.",
+    "postedAt": "2026-06-24"
+  },
+  {
+    "id": "alert_2",
+    "situationType": "Child labour",
+    "area": "Old Market District",
+    "message": "Several small workshops in the old market are reported to employ children during school hours. Witnesses can report anonymously.",
+    "postedAt": "2026-06-20"
+  },
+  {
+    "id": "alert_3",
+    "situationType": "Sex trafficking",
+    "area": "Neon Heights, nightlife zone",
+    "message": "Alert about individuals being coerced in the nightlife district. If someone cannot leave freely or hand over their own ID, that is a warning sign.",
+    "postedAt": "2026-06-27"
+  },
+  {
+    "id": "alert_4",
+    "situationType": "Forced labour",
+    "area": "Riverside brick kilns",
+    "message": "Workers at riverside kilns reportedly held against advances they cannot repay. Debt used to prevent leaving is a form of bonded labour.",
+    "postedAt": "2026-06-15"
+  },
+  {
+    "id": "alert_5",
+    "situationType": "Fake job scam",
+    "area": "Downtown District, SE-42",
+    "message": "A construction staffing office is signing people onto sites and withholding wages and documents. Keep copies of any contract you sign.",
+    "postedAt": "2026-06-29"
+  },
+  {
+    "id": "alert_6",
+    "situationType": "Forced marriage",
+    "area": "Suburban east",
+    "message": "Support services report a rise in girls withdrawn from school ahead of forced marriages. Confidential help is available before anything is arranged.",
+    "postedAt": "2026-06-18"
+  }
+]
