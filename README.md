@@ -8,8 +8,8 @@
   <a href="https://github.com/swastikaggarwal/NISUP-Call-for-Code-2026-Austin-AI-HUB"><img src="https://img.shields.io/badge/GitHub-Repository-1a1c1b?style=for-the-badge&logo=github" alt="Repository"></a>
 </p>
 
-🔗 **Live app:** https://nisup-call-for-code-2026-austin-ai.vercel.app
-
+🔗 **Live app:** https://nisup-call-for-code-2026-austin-ai.vercel.app <br>
+📦 **Repository:** https://github.com/swastikaggarwal/NISUP-Call-for-Code-2026-Austin-AI-HUB <br>
 🛠️ **Built with:** Next.js 16 · Groq (Llama 3.3 70B) · RAG · Web Speech API · Recharts · Leaflet
 
 ---
