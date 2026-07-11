@@ -5,11 +5,24 @@
 
 <p>
   <a href="https://nisup-call-for-code-2026-austin-ai.vercel.app"><img src="https://img.shields.io/badge/🌍_Live_Demo-Open_NISUP-0f6e56?style=for-the-badge" alt="Live Demo"></a>
+  <a href="https://www.youtube.com/watch?v=oMYR1PRZMWw"><img src="https://img.shields.io/badge/▶️_Demo_Video-YouTube-e63946?style=for-the-badge&logo=youtube&logoColor=white" alt="Demo Video"></a>
   <a href="https://github.com/swastikaggarwal/NISUP-Call-for-Code-2026-Austin-AI-HUB"><img src="https://img.shields.io/badge/GitHub-Repository-1a1c1b?style=for-the-badge&logo=github" alt="Repository"></a>
 </p>
 
+## 🎥 Watch the demo (3 minutes)
+
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=oMYR1PRZMWw">
+    <img src="https://img.youtube.com/vi/oMYR1PRZMWw/maxresdefault.jpg" width="640" alt="NISUP — A Safe Voice to Talk To · demo video">
+  </a>
+  <br>
+  <a href="https://www.youtube.com/watch?v=oMYR1PRZMWw"><b>▶️ NISUP — A Safe Voice to Talk To | Call for Code 2026</b></a>
+</p>
+
 🔗 **Live app:** https://nisup-call-for-code-2026-austin-ai.vercel.app <br>
+🎥 **Demo video:** https://www.youtube.com/watch?v=oMYR1PRZMWw <br>
 📦 **Repository:** https://github.com/swastikaggarwal/NISUP-Call-for-Code-2026-Austin-AI-HUB <br>
+🧪 **Try it yourself:** [copy-paste sample cases](docs/SAMPLE-CASES.md) — test every feature in 5 minutes <br>
 🛠️ **Built with:** Next.js 16 · Groq (Llama 3.3 70B) · RAG · Web Speech API · Recharts · Leaflet
 
 ---
@@ -163,6 +176,8 @@ All of it **live** — the dashboard re-syncs every 5 seconds as new voices come
 1. Open the **[live app](https://nisup-call-for-code-2026-austin-ai.vercel.app)** → **Begin** (Chrome/Edge, allow the microphone).
 2. Reproduce **Sample 1** (green) — then tap the NISUP logo to start over and reproduce **Sample 2** (red) and **Sample 3** (nexus).
 3. Open **/dashboard/overview** (any login — demo mode) to see the Pattern Alerts, the map, and the 🚩 triage feed.
+
+📋 **Want exact copy-paste scripts?** → **[docs/SAMPLE-CASES.md](docs/SAMPLE-CASES.md)** — 5 ready-made cases (Amit's full journey, the witness report, a survivor story, a green-flag doubt, and the console walkthrough).
 
 ---
 
